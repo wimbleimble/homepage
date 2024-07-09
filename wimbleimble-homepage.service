@@ -1,0 +1,8 @@
+[Unit]
+Description=Custom homepage for firefox.
+
+[Service]
+ExecStart=python -m http.server -d /usr/share/wimbleimble-homepage
+
+[Install]
+WantedBy=default.target
