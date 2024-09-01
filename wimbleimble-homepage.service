@@ -2,7 +2,7 @@
 Description=Custom homepage for firefox.
 
 [Service]
-ExecStart=python -m http.server -d /usr/share/wimbleimble-homepage
+ExecStart=python -m http.server -d /usr/share/wimbleimble-homepage 6969
 
 [Install]
 WantedBy=default.target

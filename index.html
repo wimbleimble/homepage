@@ -114,9 +114,18 @@
             font-size: 12rem;
             text-decoration: none;
             color: var(--ctp-mocha-lavender);
+            position: relative;
         }
         a.icon:hover {
             color: var(--ctp-mocha-pink);
+        }
+        span.subscript {
+            position: absolute;
+            top: 20%;
+            left: -35%;
+            transform: scale(40%);
+            color: var(--ctp-mocha-lavender);
+            -webkit-text-stroke: 5px var(--ctp-mocha-base);
         }
 
     </style>
@@ -125,14 +134,17 @@
 <body>
     <nav>
         <a href="https://www.github.com/" class="icon">&#xea84;</a> <!-- Github -->
-        <a href="https://intranet.cardiff.ac.uk/students/" class="icon">&#xf19c;</a> <!-- Uni -->
+        <a href="https://intranet.cardiff.ac.uk/students/" class="icon">&#xf19d</a> <!-- Uni -->
         <a href="https://tech.lgbt/" class="icon">&#xedc0;</a> <!-- Mastodon -->
         <a href="https://www.tumblr.com/" class="icon">&#xf174;</a> <!-- Tumblr -->
         <a href="https://www.youtube.com/" class="icon">&#xf16a;</a> <!-- YouTube -->
-        <a href="https://outlook.office.com/mail/inbox" class="icon">&#xf0d22;</a> <!-- Uni Email -->
+        <a href="https://outlook.office.com/mail/inbox" class="icon">
+            &#xf0d22;
+            <span class="subscript">&#xf19d</span>
+        </a> <!-- Uni Email -->
         <a href="https://outlook.live.com/mail/0/" class="icon">&#xf0d22;</a> <!-- Hotmail -->
         <a href="https://mail.proton.me/u/1/inbox" class="icon">&#xf42f;</a> <!-- Protonmail -->
     </nav>
-    <h1>hello!</h1>
+    <h1>hello :)</h1>
 </body>
 </html>
